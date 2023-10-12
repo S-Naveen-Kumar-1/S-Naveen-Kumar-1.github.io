@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -35,4 +36,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* My css  */
+
+* {
+  font-style: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.App {
+  width: 100%;
 }
