@@ -11,7 +11,7 @@ export const AboutSection = () => {
           <img
             src="https://avatars.githubusercontent.com/u/130354961?v=4"
             alt=""
-            className={styles.profilePic}
+            className={`home-img ${styles.profilePic}`}
           />
         </div>
         <div>

@@ -48,7 +48,6 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center gap-12 max-[900px]:hidden">
         <Link
-          className="nav-link about"
           to="about"
           smooth={true}
           duration={1000}
@@ -59,7 +58,6 @@ export const Navbar = () => {
           <div className={styles.nav}>about</div>
         </Link>
         <Link
-          className="nav-link skills"
           to="skills"
           smooth={true}
           duration={1000}
@@ -70,7 +68,6 @@ export const Navbar = () => {
           <div className={styles.nav}>skills</div>
         </Link>
         <Link
-          className="nav-link projects"
           to="projects"
           smooth={true}
           duration={1000}
@@ -81,7 +78,6 @@ export const Navbar = () => {
           <div className={styles.nav}>projects</div>
         </Link>
         <Link
-          className="nav-link contact"
           to="contact"
           smooth={true}
           duration={1000}
@@ -91,7 +87,7 @@ export const Navbar = () => {
         >
           <div className={styles.nav}>contact</div>
         </Link>
-        <button className="nav-link resume" id="resume-link-1"  onClick={openNewTab}>
+        <button className="nav-link resume" id="resume-button-1"  onClick={openNewTab}>
           <div   className={styles.nav}>Resume</div>
         </button>
       </div>
