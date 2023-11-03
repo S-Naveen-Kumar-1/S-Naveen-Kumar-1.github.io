@@ -30,6 +30,7 @@ export const Home = () => {
           </div>
           <div>Resume</div>
           <a
+            id="resume-link-2"
             href="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
             download="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
           ></a>

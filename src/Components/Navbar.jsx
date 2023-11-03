@@ -192,6 +192,7 @@ export const Navbar = () => {
             </div>
             <div className={styles.nav}>Resume</div>{" "}
             <a
+            id="resume-link-1"
               href="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
               download="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
             ></a>
