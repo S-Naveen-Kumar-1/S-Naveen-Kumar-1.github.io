@@ -27,7 +27,7 @@ export const Skills = () => {
 
   return (
     <div id="skills" className={styles.skills}>
-      <h2>Skills</h2>
+      <p style={{ fontSize: "40px", fontWeight: "400" }}>Skills</p>
       <div className={styles.skillCards}>
         {skills.map((skill, index) => (
           <div className={`skills-card ${styles.skillCard}`} key={index}>
