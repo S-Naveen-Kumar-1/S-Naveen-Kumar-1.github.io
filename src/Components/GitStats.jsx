@@ -5,31 +5,42 @@ import GitHubCalendar from "react-github-calendar";
 export const GitStats = () => {
   return (
     <div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          margin: "auto",
+          justifyContent: "center",
+        }}
+        className="react-activity-calendar"
+      >
+        <GitHubCalendar username="S-Naveen-Kumar-1" />
+      </div>
       <DIV>
-        <div id="github-streak-stats">
+        <div>
           <img
+            id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=S-Naveen-kumar-1&theme=dark"
             alt="GitHub Streak"
           />
         </div>
-        <div id="github-top-langs">
+        <div>
           <img
+            id="github-top-langs"
             align="left"
             src="https://github-readme-stats.vercel.app/api/top-langs?username=s-naveen-kumar-1&show_icons=true&locale=en&layout=compact&theme=dark"
             alt="s-naveen-kumar-1"
           />
         </div>
-        <div id="github-stats-card">
+        <div>
           <img
+            id="github-stats-card"
             align="center"
             src="https://github-readme-stats.vercel.app/api?username=s-naveen-kumar-1&show_icons=true&locale=en&theme=dark"
             alt="s-naveen-kumar-1"
           />
         </div>
       </DIV>
-      <div style={{display:"flex",alignItems:"center", margin:"auto",justifyContent:"center",paddingBottom:"80px"}} className="react-activity-calendar">
-        <GitHubCalendar username="S-Naveen-Kumar-1" />
-      </div>
     </div>
   );
 };
@@ -49,5 +60,4 @@ const DIV = styled.div`
     width: 100%;
     height: 100%;
   }
-
 `;

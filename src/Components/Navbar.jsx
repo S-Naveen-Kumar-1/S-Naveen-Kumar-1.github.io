@@ -92,7 +92,7 @@ export const Navbar = () => {
         <button
           style={{
             display: "flex",
-            gap:" 5%",
+            gap: " 5%",
             alignItems: "center",
             borderRadius: "5%",
             border: "1px solid #495a92",
@@ -171,7 +171,7 @@ export const Navbar = () => {
             style={{
               display: "flex",
               alignItems: "center",
-              gap:" 5%",
+              gap: " 5%",
               borderRadius: "5%",
               border: "1px solid #495a92",
               backgroundColor: "#495a92",
@@ -191,6 +191,10 @@ export const Navbar = () => {
               />
             </div>
             <div className={styles.nav}>Resume</div>{" "}
+            <a
+              href="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
+              download="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
+            ></a>
           </button>
         </div>
       </div>
