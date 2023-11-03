@@ -5,22 +5,26 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-bottom: 10vh;
+  padding-top: 80px;
+
 }
-.rootCont h1 {
+.rootCont>h1 {
   color: rgb(0, 49, 64);
   width: 95px;
   margin: 0 auto;
 }
+
 .rootCont > p {
   font-size: 40px;
   font-weight: 400;
+  padding-bottom: 80px;
+
 }
 .mainCont {
   display: grid;
   grid-template-columns: 30% 60%;
   gap: 10%;
-  color: rgb(14, 36, 49);
+  color: #536397;
   font-size: 20px;
 }
 .mainCont > div {
@@ -32,6 +36,10 @@
 }
 .mainCont > div > h2 {
   margin: 0px;
+  font-size: 35px;
+  font-weight: 400;
+  padding-bottom: 15px;
+  color: #536397;
 }
 .profilePic {
   text-align: right;

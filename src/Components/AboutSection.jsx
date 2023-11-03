@@ -11,12 +11,12 @@ export const AboutSection = () => {
           <img
             src="https://avatars.githubusercontent.com/u/130354961?v=4"
             alt=""
-            className={`home-img ${styles.profilePic}`}
+            className={styles.profilePic}
           />
         </div>
         <div>
           <h2>I am S Naveen Kumar</h2>
-          <p>
+          <p id="user-detail-intro">
             Perceptive and thorough full-stack developer with a specialization
             in MERN stack. Outcome-driven and inquisitive, with a distinct
             fascination with building user-driven experiences. I have completed

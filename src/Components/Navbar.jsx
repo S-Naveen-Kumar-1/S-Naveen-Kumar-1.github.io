@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "../Styles/Navbar.module.css";
 import { Link } from "react-scroll";
 import { HiMenuAlt1 } from "react-icons/hi";
+import { RiDownloadLine } from "react-icons/ri";
 
 export const Navbar = () => {
   const [isMobileMenuVisible, setIsMobileMenuVisible] = useState(false);
@@ -46,7 +47,7 @@ export const Navbar = () => {
           <HiMenuAlt1 className="text-2xl" />
         </span>
       </div>
-      
+
       <div className="flex items-center gap-12 max-[900px]:hidden">
         <Link
           to="about"
@@ -88,17 +89,41 @@ export const Navbar = () => {
         >
           <div className={styles.nav}>contact</div>
         </Link>
-        <button className="nav-link resume" id="resume-button-1" onClick={openNewTab}>
-          <div className={styles.nav}>Resume</div>
+        <button
+          style={{
+            display: "flex",
+            gap:" 5%",
+            alignItems: "center",
+            borderRadius: "5%",
+            border: "1px solid #495a92",
+            backgroundColor: "#495a92",
+            color: "white",
+          }}
+          className="nav-link resume"
+          id="resume-button-1"
+          onClick={openNewTab}
+        >
+          <div>
+            <RiDownloadLine
+              style={{
+                fontSize: "18px",
+                marginLeft: "10px",
+                marginRight: "5px",
+              }}
+            />
+          </div>
+          <div className={styles.nav}>Resume</div>{" "}
         </button>
       </div>
-      
-      <div className="relative min-[900px]:hidden">
+
+      <div className="relative min-[900px]:inline">
         <div
-          className={`flex gap-4 w-[170px] flex-col fixed top-[4.3rem] -right-3 p-1 px-3 shadow-[0px_13px_29px_0px_rgba(100,100,111,0.4)] bg-white h-[100vh] ${isMobileMenuVisible ? "" : "-right-[300px]"} transition-all duration-500`}
+          className={`flex gap-4 w-[170px] flex-col fixed top-[4.3rem] -right-3 p-1 px-3 shadow-[0px_13px_29px_0px_rgba(100,100,111,0.4)] bg-white h-[100vh] ${
+            isMobileMenuVisible ? "" : "-right-[300px]"
+          } transition-all duration-500`}
         >
           <Link
-            className="nav-link about" 
+            className="nav-link about"
             to="about"
             smooth={true}
             duration={1000}
@@ -141,8 +166,31 @@ export const Navbar = () => {
           >
             <div className={styles.nav}>contact</div>
           </Link>
-          <button className="nav-link resume" onClick={openNewTab}>
-            <div className={styles.nav}>Resume</div>
+
+          <button
+            style={{
+              display: "flex",
+              alignItems: "center",
+              gap:" 5%",
+              borderRadius: "5%",
+              border: "1px solid #495a92",
+              backgroundColor: "#495a92",
+              color: "white",
+            }}
+            className="nav-link resume"
+            id="resume-button-1"
+            onClick={openNewTab}
+          >
+            <div>
+              <RiDownloadLine
+                style={{
+                  fontSize: "18px",
+                  marginLeft: "10px",
+                  marginRight: "5px",
+                }}
+              />
+            </div>
+            <div className={styles.nav}>Resume</div>{" "}
           </button>
         </div>
       </div>
