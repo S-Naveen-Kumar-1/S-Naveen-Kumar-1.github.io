@@ -135,7 +135,7 @@ const Content = styled.div`
       font-weight: 400;
     }
     button {
-      width: auto; /* Adjust the width to "auto" for mobile screens */
+      width: auto; 
       height: 40px;
       font-size: 14px;
     }
