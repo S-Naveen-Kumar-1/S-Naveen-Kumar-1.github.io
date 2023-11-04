@@ -20,7 +20,7 @@ export const Home = () => {
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
         <button id="resume-button-2" onClick={openNewTab}>
-          <div>
+          {/* <div>
             <RiDownloadLine
               style={{
                 fontSize: "18px",
@@ -28,13 +28,13 @@ export const Home = () => {
                 marginRight: "5px",
               }}
             />
-          </div>
+          </div> */}
           <div>Resume</div>
-          <a
+          {/* <a
             id="resume-link-2"
             href="S-Naveen-Kumar-Resume.pdf"
             download="S-Naveen-Kumar-Resume.pdf"
-          ></a>
+          ></a> */}
         </button>
         <div id="socialIcons">
           <a
