@@ -32,7 +32,7 @@ export const Home = () => {
           <a
             id="resume-link-2"
             href="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
-            download="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
+            download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button>
         <div id="socialIcons">

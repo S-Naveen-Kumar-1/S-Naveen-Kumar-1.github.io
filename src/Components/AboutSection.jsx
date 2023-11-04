@@ -15,7 +15,7 @@ export const AboutSection = () => {
           />
         </div>
         <div>
-          <h2>I am S Naveen Kumar</h2>
+          <h2 id="user-detail-intro">I am S Naveen Kumar</h2>
           <p id="user-detail-intro">
             Perceptive and thorough full-stack developer with a specialization
             in MERN stack. Outcome-driven and inquisitive, with a distinct
