@@ -117,11 +117,7 @@ export const Navbar = () => {
             />
           </div>
           <div className={styles.nav}>Resume</div>
-          <a
-            id="resume-link-1"
-            href="S-Naveen-Kumar-Resume.pdf"
-            download="S-Naveen-Kumar-Resume.pdf"
-          ></a>
+        
         </button>
       </div>
 
