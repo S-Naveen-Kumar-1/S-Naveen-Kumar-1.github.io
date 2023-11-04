@@ -31,7 +31,7 @@ export const Home = () => {
           </div> */}
           <div>Resume</div>
           <a
-            id="resume-button-2"
+            id="resume-link-2"
             href="S-Naveen-Kumar-Resume.pdf"
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
