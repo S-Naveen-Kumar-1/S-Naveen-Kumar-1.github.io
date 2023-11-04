@@ -7,7 +7,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 export const Home = () => {
   const openNewTab = () => {
     window.open(
-      "https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing",
+      "https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing ",
       "_blank"
     );
   };
@@ -31,8 +31,8 @@ export const Home = () => {
           <div>Resume</div>
           <a
             id="resume-link-2"
-            href="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
-            download="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
+            download="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
           ></a>
         </button>
         <div id="socialIcons">
