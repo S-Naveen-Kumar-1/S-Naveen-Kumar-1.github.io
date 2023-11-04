@@ -13,7 +13,7 @@ export const Navbar = () => {
 
   const openNewTab = () => {
     window.open(
-      "../resume/S-Naveen-Kumar-Resume.pdf",
+      "https://drive.google.com/file/d/145788VwPiqlFOqrYxz2YGm06P3UWpaoa/view?usp=sharing",
       "_blank"
     );
   };
@@ -119,7 +119,7 @@ export const Navbar = () => {
           <div className={styles.nav}>Resume</div>
           <a
             id="resume-link-1"
-            href="../resume/S-Naveen-Kumar-Resume.pdf"
+            href="https://drive.google.com/file/d/145788VwPiqlFOqrYxz2YGm06P3UWpaoa/view?usp=sharing"
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button>

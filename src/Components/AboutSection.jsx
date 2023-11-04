@@ -6,6 +6,7 @@ export const AboutSection = () => {
   return (
     <div className={`${styles.rootCont} ${"about section"}`} id="about">
       <p>About</p>
+
       <div className={styles.mainCont}>
         <div className={styles.profilePicCont}>
           <img
