@@ -7,9 +7,10 @@ import { AiFillLinkedin } from "react-icons/ai";
 export const Home = () => {
   const openNewTab = () => {
     window.open(
-      "https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing ",
+      "https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing",
       "_blank"
     );
+    
   };
 
   return (
