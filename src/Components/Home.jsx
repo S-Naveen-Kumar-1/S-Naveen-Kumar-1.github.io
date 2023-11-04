@@ -19,7 +19,7 @@ export const Home = () => {
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
         <button id="resume-button-2" onClick={openNewTab}>
-          <div>
+          {/* <div>
             <RiDownloadLine
               style={{
                 fontSize: "18px",
@@ -27,7 +27,7 @@ export const Home = () => {
                 marginRight: "5px",
               }}
             />
-          </div>
+          </div> */}
           <div>Resume</div>
           <a
             id="resume-link-2"
@@ -35,7 +35,7 @@ export const Home = () => {
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button>
-        <div id="socialIcons">
+        {/* <div id="socialIcons">
           <a
             rel="noreferrer"
             href="https://www.linkedin.com/in/s-naveen-kumar-17774312a/"
@@ -52,7 +52,7 @@ export const Home = () => {
           >
             <AiOutlineGithub />
           </a>
-        </div>
+        </div> */}
       </Content>
       <Content id="codeImg">
         <img
