@@ -7,7 +7,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 export const Home = () => {
   const openNewTab = () => {
     window.open(
-      "https://drive.google.com/file/d/1c1Tknlma4y2qzEVNzT-TD_yR4oAnE-YL/view?usp=sharing",
+      "S-Naveen-Kumar-Resume.pdf",
       "_blank"
     );
     
@@ -32,7 +32,7 @@ export const Home = () => {
           <div>Resume</div>
           <a
             id="resume-link-2"
-            href="https://drive.google.com/file/d/1c1Tknlma4y2qzEVNzT-TD_yR4oAnE-YL/view?usp=sharing"
+            href="S-Naveen-Kumar-Resume.pdf"
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button>
