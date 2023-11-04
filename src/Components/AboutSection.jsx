@@ -15,10 +15,10 @@ export const AboutSection = () => {
           />
         </div>
         <div>
-          <h2 id="user-detail-intro">I am S Naveen Kumar</h2>
+          <h2 >I am S Naveen Kumar</h2>
           <p id="user-detail-intro">
             Perceptive and thorough full-stack developer with a specialization
-            in  HTML, CSS, JavaScript, React. Outcome-driven and inquisitive, with a distinct
+            in HTML,CSS,JavaScrit,React. Outcome-driven and inquisitive, with a distinct
             fascination with building user-driven experiences. I have completed
             my graduation in Civil Engineering in 2019.
           </p>
