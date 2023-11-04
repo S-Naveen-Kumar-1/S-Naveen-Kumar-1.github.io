@@ -8,7 +8,7 @@ export const Home = () => {
   const openNewTab = () => {
     window.open(
       "S-Naveen-Kumar-Resume.pdf",
-    
+      "_blank"
     );
     
   };
@@ -20,7 +20,7 @@ export const Home = () => {
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
         <button id="resume-button-2" onClick={openNewTab}>
-          {/* <div>
+          <div>
             <RiDownloadLine
               style={{
                 fontSize: "18px",
@@ -28,9 +28,13 @@ export const Home = () => {
                 marginRight: "5px",
               }}
             />
-          </div> */}
+          </div>
           <div>Resume</div>
-         
+          <a
+            id="resume-link-2"
+            href=""
+            download="S-Naveen-Kumar-Resume.pdf"
+          ></a>
         </button>
         <div id="socialIcons">
           <a
