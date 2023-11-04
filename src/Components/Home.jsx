@@ -8,7 +8,6 @@ export const Home = () => {
   const openNewTab = () => {
     window.open(
       "S-Naveen-Kumar-Resume.pdf",
-      "_blank"
     );
     
   };

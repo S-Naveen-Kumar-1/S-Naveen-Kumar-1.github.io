@@ -14,7 +14,6 @@ export const Navbar = () => {
   const openNewTab = () => {
     window.open(
       "S-Naveen-Kumar-Resume.pdf",
-      "_blank"
     );
   };
 
@@ -94,20 +93,20 @@ export const Navbar = () => {
           <div className={styles.nav}>contact</div>
         </Link>
         <button
-          // style={{
-          //   display: "flex",
-          //   gap: " 5%",
-          //   alignItems: "center",
-          //   borderRadius: "5%",
-          //   border: "1px solid #495a92",
-          //   backgroundColor: "#495a92",
-          //   color: "white",
-          // }}
+          style={{
+            display: "flex",
+            gap: " 5%",
+            alignItems: "center",
+            borderRadius: "5%",
+            border: "1px solid #495a92",
+            backgroundColor: "#495a92",
+            color: "white",
+          }}
           className="nav-link resume"
           id="resume-button-1"
           onClick={openNewTab}
         >
-          {/* <div>
+          <div>
             <RiDownloadLine
               style={{
                 fontSize: "18px",
@@ -115,9 +114,13 @@ export const Navbar = () => {
                 marginRight: "5px",
               }}
             />
-          </div> */}
+          </div>
           <div className={styles.nav}>Resume</div>
-        
+          <a
+            id="resume-link-1"
+            href="S-Naveen-Kumar-Resume.pdf"
+            download="S-Naveen-Kumar-Resume.pdf"
+          ></a>
         </button>
       </div>
 
