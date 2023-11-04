@@ -48,8 +48,9 @@ export const Navbar = () => {
         </span>
       </div>
 
-      <div className="flex items-center gap-12 max-[900px]:hidden">
+      <div className="flex items-center gap-12 max-[900px]:inline">
         <Link
+          className="nav-link about"
           to="about"
           smooth={true}
           duration={1000}
@@ -61,6 +62,7 @@ export const Navbar = () => {
         </Link>
         <Link
           to="skills"
+          className="nav-link skills"
           smooth={true}
           duration={1000}
           activeClass={styles.active}
@@ -71,6 +73,7 @@ export const Navbar = () => {
         </Link>
         <Link
           to="projects"
+          className="nav-link projects"
           smooth={true}
           duration={1000}
           activeClass={styles.active}
@@ -81,6 +84,7 @@ export const Navbar = () => {
         </Link>
         <Link
           to="contact"
+          className="nav-link contact"
           smooth={true}
           duration={1000}
           activeClass={styles.active}
@@ -112,18 +116,22 @@ export const Navbar = () => {
               }}
             />
           </div>
-          <div className={styles.nav}>Resume</div>{" "}
+          <div className={styles.nav}>Resume</div>
+          <a
+            id="resume-link-1"
+            href="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
+            download="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
+          ></a>
         </button>
       </div>
 
-      <div className="relative min-[900px]:hidden">
+      {/* <div className="relative min-[900px]:hidden">
         <div
           className={`flex gap-4 w-[170px] flex-col fixed top-[4.3rem] -right-3 p-1 px-3 shadow-[0px_13px_29px_0px_rgba(100,100,111,0.4)] bg-white h-[100vh] ${
             isMobileMenuVisible ? "" : "-right-[300px]"
           } transition-all duration-500`}
         >
           <Link
-            className="nav-link about"
             to="about"
             smooth={true}
             duration={1000}
@@ -134,7 +142,6 @@ export const Navbar = () => {
             <div className={styles.nav}>about</div>
           </Link>
           <Link
-            className="nav-link skills"
             to="skills"
             smooth={true}
             duration={1000}
@@ -145,7 +152,6 @@ export const Navbar = () => {
             <div className={styles.nav}>skills</div>
           </Link>
           <Link
-            className="nav-link projects"
             to="projects"
             smooth={true}
             duration={1000}
@@ -156,7 +162,6 @@ export const Navbar = () => {
             <div className={styles.nav}>projects</div>
           </Link>
           <Link
-            className="nav-link contact"
             to="contact"
             smooth={true}
             duration={1000}
@@ -177,8 +182,6 @@ export const Navbar = () => {
               backgroundColor: "#495a92",
               color: "white",
             }}
-            className="nav-link resume"
-            id="resume-button-1"
             onClick={openNewTab}
           >
             <div>
@@ -190,15 +193,14 @@ export const Navbar = () => {
                 }}
               />
             </div>
-            <div className={styles.nav}>Resume</div>{" "}
+            <div className={styles.nav}>Resume</div>
             <a
-            id="resume-link-1"
               href="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
               download="https://drive.google.com/file/d/1BZzN9V1wgjJqdFH3nKV9WzIAsuenP-YS/view?usp=sharing"
             ></a>
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
