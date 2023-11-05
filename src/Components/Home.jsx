@@ -5,12 +5,12 @@ import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 
 export const Home = () => {
-  // const openNewTab = () => {
-  //   window.open(
-  //     "S-Naveen-Kumar-Resume.pdf",
-  //   );
+  const openNewTab = () => {
+    window.open(
+      "S-Naveen-Kumar-Resume.pdf",
+    );
 
-  // };
+  };
 
   return (
     <>
