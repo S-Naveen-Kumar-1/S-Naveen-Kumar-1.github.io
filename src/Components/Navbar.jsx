@@ -104,7 +104,7 @@ export const Navbar = () => {
             color: "white",
           }}
           className="nav-link resume"
-          id={`resume-button-2 resume-link-2`}         
+          id="resume-button-2"        
            onClick={openNewTab}
         >
           <div>
@@ -117,10 +117,12 @@ export const Navbar = () => {
             />
           </div>
           <div className={styles.nav}>Resume</div>
-          {/* <a
-            href="S-Naveen-Kumar-Resume.pdf"
-            download="S-Naveen-Kumar-Resume.pdf"
-          ></a> */}
+          <a
+          id="resume-link-2"
+              href="S-Naveen-Kumar-Resume.pdf"
+              download="S-Naveen-Kumar-Resume"
+              target="_blank"
+          ></a>
         </button>
       </div>
 

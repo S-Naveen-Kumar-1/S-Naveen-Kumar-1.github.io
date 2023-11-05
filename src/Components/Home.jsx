@@ -19,7 +19,7 @@ export const Home = () => {
         <h1>Hi,</h1>
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
-        <button id={`resume-button-2 resume-link-2`} onClick={openNewTab}>
+        <button id="resume-button-2" onClick={openNewTab}>
           <div>
             <RiDownloadLine
               style={{
@@ -30,10 +30,11 @@ export const Home = () => {
             />
           </div>
           <div>Resume</div>
-          {/* <a
+          <a
             href="S-Naveen-Kumar-Resume.pdf"
-            download="S-Naveen-Kumar-Resume.pdf"
-          ></a> */}
+            download="S-Naveen-Kumar-Resume"
+            target="_blank"
+          ></a>
         </button>
         <div id="socialIcons">
           <a
