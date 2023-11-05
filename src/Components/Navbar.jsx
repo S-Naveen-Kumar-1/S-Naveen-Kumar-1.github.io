@@ -12,10 +12,7 @@ export const Navbar = () => {
   };
 
   const openNewTab = () => {
-    window.open(
-      "S-Naveen-Kumar-Resume.pdf",
-      "_blank"
-    );
+    window.open("S-Naveen-Kumar-Resume.pdf", "_blank");
   };
 
   return (
@@ -93,7 +90,7 @@ export const Navbar = () => {
         >
           <div className={styles.nav}>contact</div>
         </Link>
-        <button
+        {/* <button
           style={{
             display: "flex",
             gap: " 5%",
@@ -123,6 +120,23 @@ export const Navbar = () => {
               download="S-Naveen-Kumar-Resume"
               target="_blank"
           ></a>
+        </button> */}
+        <button
+          id="resume-button-1"
+          className="fixed right-4 top-6 max-[860px]:hidden focus:scale-105 hover:scale-105 active:scale-100 transition"
+        >
+          <a
+            id="resume-link-1"
+            className="nav-link resume group m-1 text-[#D1D5DB] bg-gray-900 hover:bg-gray-800 px-3 max-[426px]:px-5 max-[376px]:px-3 py-2 rounded-full flex items-center gap-2"
+            href="S-Naveen-Kumar-Resume.pdf"
+            target="_blank"
+            download
+          >
+            Resume
+            {/* <span className="inline-block opacity-60 group-hover:translate-y-1 transition">
+              <HiDownload />
+            </span> */}
+          </a>
         </button>
       </div>
 

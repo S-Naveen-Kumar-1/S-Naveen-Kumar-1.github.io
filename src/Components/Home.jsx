@@ -6,11 +6,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 
 export const Home = () => {
   const openNewTab = () => {
-    window.open(
-      "S-Naveen-Kumar-Resume.pdf",
-      "_blank"
-    );
-    
+    window.open("S-Naveen-Kumar-Resume.pdf", "_blank");
   };
 
   return (
@@ -19,7 +15,7 @@ export const Home = () => {
         <h1>Hi,</h1>
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
-        <button id="resume-button-2" onClick={openNewTab}>
+        {/* <button id="resume-button-2" onClick={openNewTab}>
           <div>
             <RiDownloadLine
               style={{
@@ -35,6 +31,20 @@ export const Home = () => {
             download="S-Naveen-Kumar-Resume"
             target="_blank"
           ></a>
+        </button> */}
+        <button id="resume-button-2">
+          <a
+            id="resume-link-2"
+            className="group m-1 bg-white dark:bg-white/10 px-10 max-[426px]:px-7 max-[376px]:px-5 py-3 max-[376px]:py-2 rounded-full flex items-center gap-2 focus:scale-105 hover:scale-105 active:scale-100 transition "
+            href="S-Naveen-Kumar-Resume.pdf"
+            target="_blank"
+            download
+          >
+            Resume
+            {/* <span className="inline-block opacity-60 group-hover:translate-y-1 transition">
+              <HiDownload />
+            </span> */}
+          </a>
         </button>
         <div id="socialIcons">
           <a
