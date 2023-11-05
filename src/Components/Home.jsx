@@ -1,8 +1,8 @@
 import React from "react";
-// import styled from "styled-components";
-// import { RiDownloadLine } from "react-icons/ri";
-// import { AiOutlineGithub } from "react-icons/ai";
-// import { AiFillLinkedin } from "react-icons/ai";
+import styled from "styled-components";
+import { RiDownloadLine } from "react-icons/ri";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
 export const Home = () => {
   // const openNewTab = () => {
