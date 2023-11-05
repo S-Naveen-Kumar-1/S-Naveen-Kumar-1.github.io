@@ -104,8 +104,8 @@ export const Navbar = () => {
             color: "white",
           }}
           className="nav-link resume"
-          id="resume-button-1"
-          onClick={openNewTab}
+          id={`resume-button-2 resume-link-2`}         
+           onClick={openNewTab}
         >
           <div>
             <RiDownloadLine

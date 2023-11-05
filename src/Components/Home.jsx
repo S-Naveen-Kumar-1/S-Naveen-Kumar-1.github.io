@@ -19,7 +19,7 @@ export const Home = () => {
         <h1>Hi,</h1>
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
-        <button id="resume-button-2" onClick={openNewTab}>
+        <button id={`resume-button-2 resume-link-2`} onClick={openNewTab}>
           <div>
             <RiDownloadLine
               style={{
