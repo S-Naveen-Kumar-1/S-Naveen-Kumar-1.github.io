@@ -7,12 +7,12 @@ import { Link } from "react-scroll";
 import { Button } from "@chakra-ui/react";
 
 export const Home = () => {
-  const openNewTab = () => {
-    window.open(
-      "S-Naveen-Kumar-Resume.pdf",
-    );
+  // const openNewTab = () => {
+  //   window.open(
+  //     "S-Naveen-Kumar-Resume.pdf",
+  //   );
     
-  };
+  // };
 
   return (
     <>
@@ -65,8 +65,8 @@ export const Home = () => {
           alt=""
         />
       </Content>
-    <a id="resume-link-2" onClick={openNewTab}>
-          Resume
+    <a id="resume-link-2" href="S-Naveen-Kumar-Resume.pdf" >
+          resume
         </a>
     </DIV>
     </>
