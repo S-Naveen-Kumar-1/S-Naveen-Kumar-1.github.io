@@ -65,9 +65,9 @@ export const Home = () => {
           alt=""
         />
       </Content>
-    <Button id="resume-button-2" onClick={openNewTab}>
+    <a id="resume-button-2" onClick={openNewTab}>
           Resume
-        </Button>
+        </a>
     </DIV>
     </>
 
