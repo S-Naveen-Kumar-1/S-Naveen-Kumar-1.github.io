@@ -14,6 +14,7 @@ export const Home = () => {
   };
 
   return (
+    <>
     <DIV id="home">
       <Content id="intro">
         <h1>Hi,</h1>
@@ -36,9 +37,7 @@ export const Home = () => {
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button> */}
-        <Link id="resume-button-2" onClick={openNewTab}>
-          Resume
-        </Link>
+       
         
         {/* <div id="socialIcons">
           <a
@@ -66,6 +65,11 @@ export const Home = () => {
         />
       </Content>
     </DIV>
+    <Link id="resume-button-2" onClick={openNewTab}>
+          Resume
+        </Link>
+    </>
+
   );
 };
 
