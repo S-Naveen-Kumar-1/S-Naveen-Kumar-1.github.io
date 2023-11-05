@@ -36,7 +36,7 @@ export const Home = () => {
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
         </button> */}
-        <Link onClick={openNewTab}>
+        <Link id="resume-button-2" onClick={openNewTab}>
           Resume
         </Link>
         
