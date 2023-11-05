@@ -30,10 +30,10 @@ export const Home = () => {
             />
           </div>
           <div>Resume</div>
-          <a
+          {/* <a
             href="S-Naveen-Kumar-Resume.pdf"
             download="S-Naveen-Kumar-Resume.pdf"
-          ></a>
+          ></a> */}
         </button>
         <div id="socialIcons">
           <a
