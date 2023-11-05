@@ -118,10 +118,7 @@ export const Navbar = () => {
           <div className={styles.nav}>Resume</div>
       
         </button> */}
-        <div className="nav-link resume">
-
-        <a id="resume-button-1" >Resume</a>
-        </div>
+        <button id="resume-button-1" onClick={openNewTab}>Resume</button>
       </div>
 
       {/* <div className="relative min-[900px]:hidden">
