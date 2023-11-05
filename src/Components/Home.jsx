@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { RiDownloadLine } from "react-icons/ri";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 export const Home = () => {
   const openNewTab = () => {
@@ -18,8 +19,8 @@ export const Home = () => {
         <h1>Hi,</h1>
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
         <h5 id="user-detail-intro">Full Stack Web Developer</h5>
-        <button id="resume-button-2" onClick={openNewTab}>
-          {/* <div>
+        {/* <button id="resume-button-2" onClick={openNewTab}>
+          <div>
             <RiDownloadLine
               style={{
                 fontSize: "18px",
@@ -27,14 +28,18 @@ export const Home = () => {
                 marginRight: "5px",
               }}
             />
-          </div> */}
+          </div>
           <div>Resume</div>
           <a
             id="resume-link-2"
             href=""
             download="S-Naveen-Kumar-Resume.pdf"
           ></a>
-        </button>
+        </button> */}
+        <Link onClick={openNewTab}>
+          Resume
+        </Link>
+        
         {/* <div id="socialIcons">
           <a
             rel="noreferrer"
