@@ -14,6 +14,7 @@ export const Navbar = () => {
   const openNewTab = () => {
     window.open(
       "S-Naveen-Kumar-Resume.pdf",
+      "_blank"
     );
   };
 
@@ -92,7 +93,7 @@ export const Navbar = () => {
         >
           <div className={styles.nav}>contact</div>
         </Link>
-        {/* <button
+        <button
           style={{
             display: "flex",
             gap: " 5%",
@@ -116,9 +117,12 @@ export const Navbar = () => {
             />
           </div>
           <div className={styles.nav}>Resume</div>
-      
-        </button> */}
-        <button id="resume-button-1" onClick={openNewTab}>Resume</button>
+          <a
+            id="resume-link-1"
+            href="S-Naveen-Kumar-Resume.pdf"
+            download="S-Naveen-Kumar-Resume.pdf"
+          ></a>
+        </button>
       </div>
 
       {/* <div className="relative min-[900px]:hidden">
