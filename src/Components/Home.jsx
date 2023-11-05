@@ -65,7 +65,7 @@ export const Home = () => {
           alt=""
         />
       </Content>
-    <a id="resume-link-2" href="S-Naveen-Kumar-Resume.pdf" >
+    <a id="resume-button-2" href="S-Naveen-Kumar-Resume.pdf" >
           resume
         </a>
     </DIV>

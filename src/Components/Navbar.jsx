@@ -120,7 +120,7 @@ export const Navbar = () => {
         </button> */}
         <div className="nav-link resume">
 
-        <a id="resume-link-1" >Resume</a>
+        <a id="resume-button-1" >Resume</a>
         </div>
       </div>
 
