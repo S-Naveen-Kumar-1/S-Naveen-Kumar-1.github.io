@@ -92,7 +92,7 @@ export const Navbar = () => {
         >
           <div className={styles.nav}>contact</div>
         </Link>
-        <button
+        {/* <button
           style={{
             display: "flex",
             gap: " 5%",
@@ -117,7 +117,11 @@ export const Navbar = () => {
           </div>
           <div className={styles.nav}>Resume</div>
       
-        </button>
+        </button> */}
+        <div className="nav-link resume">
+
+        <button id="resume-button-1" onClick={openNewTab}>Resume</button>
+        </div>
       </div>
 
       {/* <div className="relative min-[900px]:hidden">
