@@ -4,6 +4,7 @@ import { RiDownloadLine } from "react-icons/ri";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link } from "react-scroll";
+import { Button } from "@chakra-ui/react";
 
 export const Home = () => {
   const openNewTab = () => {
@@ -65,9 +66,9 @@ export const Home = () => {
         />
       </Content>
     </DIV>
-    <Link id="resume-button-2" onClick={openNewTab}>
+    <Button id="resume-button-2" onClick={openNewTab}>
           Resume
-        </Link>
+        </Button>
     </>
 
   );
