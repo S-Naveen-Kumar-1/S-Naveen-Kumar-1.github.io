@@ -65,10 +65,10 @@ export const Home = () => {
           alt=""
         />
       </Content>
-    </DIV>
     <Button id="resume-button-2" onClick={openNewTab}>
           Resume
         </Button>
+    </DIV>
     </>
 
   );
