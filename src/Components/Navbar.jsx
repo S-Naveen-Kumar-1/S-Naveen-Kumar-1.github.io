@@ -120,7 +120,7 @@ export const Navbar = () => {
         </button> */}
         <div className="nav-link resume">
 
-        <button id="resume-button-1" onClick={openNewTab}>Resume</button>
+        <a id="resume-link-1" >Resume</a>
         </div>
       </div>
 
