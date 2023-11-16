@@ -49,11 +49,9 @@ const DIV = styled.div`
   justify-content: center;
   gap: 1%;
   margin: auto;
-  border: 1px solid red;
   padding-bottom: 80px;
   width: 80%;
   div {
-    border: 1px solid red;
     height: 300px;
   }
   img {

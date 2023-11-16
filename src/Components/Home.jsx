@@ -14,8 +14,8 @@ export const Home = () => {
       <Content id="intro">
         <h1>Hi,</h1>
         <h1 id="user-detail-name">I am S Naveen Kumar</h1>
-        <h5 id="user-detail-intro">Full Stack Web Developer</h5>
-        {/* <button id="resume-button-2" onClick={openNewTab}>
+        <h5>Full Stack Web Developer</h5>
+        <button id="resume-button-2" onClick={openNewTab}>
           <div>
             <RiDownloadLine
               style={{
@@ -27,24 +27,9 @@ export const Home = () => {
           </div>
           <div>Resume</div>
           <a
-            href="S-Naveen-Kumar-Resume.pdf"
-            download="S-Naveen-Kumar-Resume"
-            target="_blank"
+            href="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
+            download="https://drive.google.com/file/d/1M7i_EjfoYeB5odZ6TBx8yi_zD034LIBp/view?usp=sharing"
           ></a>
-        </button> */}
-        <button id="resume-button-2">
-          <a
-            id="resume-link-2"
-            className="group m-1 bg-white dark:bg-white/10 px-10 max-[426px]:px-7 max-[376px]:px-5 py-3 max-[376px]:py-2 rounded-full flex items-center gap-2 focus:scale-105 hover:scale-105 active:scale-100 transition "
-            href="S-Naveen-Kumar-Resume.pdf"
-            target="_blank"
-            download
-          >
-            Resume
-            {/* <span className="inline-block opacity-60 group-hover:translate-y-1 transition">
-              <HiDownload />
-            </span> */}
-          </a>
         </button>
         <div id="socialIcons">
           <a
@@ -77,7 +62,6 @@ export const Home = () => {
 
 const DIV = styled.div`
   display: flex;
-  border: 1px solid red;
   justify-content: center;
   gap: 5%;
   padding-top: 80px;
@@ -89,7 +73,6 @@ const DIV = styled.div`
 
 const Content = styled.div`
   width: 50%;
-  border: 1px solid red;
 
   h1 {
     font-size: 50px;
@@ -104,7 +87,7 @@ const Content = styled.div`
   button {
     border: 3px solid #495a92;
     background-color: #495a92;
-    width: auto; /* Adjust the width to "auto" */
+    width: auto;
     color: white;
     height: 11%;
     border-radius: 5%;
@@ -146,7 +129,7 @@ const Content = styled.div`
       font-weight: 400;
     }
     button {
-      width: auto; /* Adjust the width to "auto" for mobile screens */
+      width: auto;
       height: 40px;
       font-size: 14px;
     }
