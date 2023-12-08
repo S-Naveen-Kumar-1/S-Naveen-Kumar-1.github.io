@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import styles from '../Styles/ProjectsSection.module.css';
-import { AiOutlineGithub } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
+import React, { useState, useEffect } from "react";
+import styles from "../Styles/ProjectsSection.module.css";
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
-export const ProjectCard=({ name, img, git, link, stacks, about }) =>{
+export const ProjectCard = ({ name, img, git, link, stacks, about }) => {
   const [isFadingIn, setIsFadingIn] = useState(false);
 
   useEffect(() => {
@@ -11,12 +11,23 @@ export const ProjectCard=({ name, img, git, link, stacks, about }) =>{
   }, []);
 
   return (
-    <div className={`project-card  ${styles.projectCont} ${isFadingIn ? styles.active : ''}`}>
+    <div
+      className={`project-card  ${styles.projectCont} ${
+        isFadingIn ? styles.active : ""
+      }`}
+    >
       <img src={img} alt="" className={styles.image} />
-      <p className='project-title' style={{ fontSize: '25px', fontWeight: '400', margin: '5px 0 0 0' }}>
+      <p
+        className="project-title"
+        style={{ fontSize: "25px", fontWeight: "400", margin: "5px 0 0 0" }}
+      >
         {name}
       </p>
-      <div className={styles.stacksDiv2}>{stacks.map((stack, index) => <span key={index}>{stack}</span>)}</div>
+      <div className={styles.stacksDiv2}>
+        {stacks.map((stack, index) => (
+          <span key={index}>{stack}</span>
+        ))}
+      </div>
 
       <div className={styles.linkCont}>
         <a href={git} rel="noreferrer" target="_blank">
@@ -25,7 +36,10 @@ export const ProjectCard=({ name, img, git, link, stacks, about }) =>{
             <p>Code</p>
           </div>
         </a>
-        <div className={`project-tech-stack ${styles.stacksDiv}`}>{stacks.map((stack, index) => <span key={index}>{stack}</span>)}
+        <div className={`project-tech-stack ${styles.stacksDiv}`}>
+          {stacks.map((stack, index) => (
+            <span key={index}>{stack}</span>
+          ))}
         </div>
 
         <a href={link} rel="noreferrer" target="_blank">
@@ -37,9 +51,8 @@ export const ProjectCard=({ name, img, git, link, stacks, about }) =>{
       </div>
 
       <div className={`project-description ${styles.projInfo}`}>
-        <p >{about}</p>
+        {/* <p >{about}</p> */}
       </div>
     </div>
   );
-}
-
+};

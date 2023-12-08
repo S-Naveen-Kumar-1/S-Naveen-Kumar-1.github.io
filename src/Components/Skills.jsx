@@ -30,7 +30,7 @@ export const Skills = () => {
       <p style={{ fontSize: "40px", fontWeight: "400" }}>Skills</p>
       <div className={styles.skillCards}>
         {skills.map((skill, index) => (
-          <div className={`skills-card ${styles.skillCard}`} key={index}>
+          <div className={`skills-card ${styles.skillCard} `} key={index}>
             {skill.icon}
             <h3 className="skills-card-name">{skill.name}</h3>
           </div>

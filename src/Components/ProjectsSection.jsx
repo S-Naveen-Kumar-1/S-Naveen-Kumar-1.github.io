@@ -40,7 +40,7 @@ const projects = [
   },
   {
     name: "Budget Buddy",
-    img: "budgetBuddy.png",
+    img: "BudgetBuddy.png",
     link: "https://euphonious-valkyrie-c86e27.netlify.app/",
     git: "https://github.com/S-Naveen-Kumar-1/straight-sock-6982/tree/main/budget_buddy",
     about: "check",
