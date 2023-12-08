@@ -7,6 +7,12 @@ import { AiFillLinkedin } from "react-icons/ai";
 export const Home = () => {
   const openNewTab = () => {
     window.open("S-Naveen-Kumar-Resume.pdf", "_blank");
+    const resumeUrl = process.env.URL + "/S-Naveen-Kumar-Resume.pdf";
+
+    const anchor = document.createElement("a");
+    anchor.href = resumeUrl;
+    anchor.download = "S-Naveen-Kumar-Resume.pdf";
+    anchor.click();
   };
 
   return (
