@@ -15,6 +15,7 @@
   margin: auto;
   margin-top: 20px;
   padding: 40px;
+  text-align: center; /* Add text-align: center to center the skill cards */
 }
 
 @keyframes slideUp {
@@ -36,21 +37,10 @@
   width: 100px;
   text-align: center;
   height: 120px;
-  transition: background-color 0.3s;
   cursor: pointer;
-  animation: slideUpCard 0.5s ease 0.5s both;
-  margin: 5px; /* Add margin to create spacing between columns */
-}
-
-@keyframes slideUpCard {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  transition: background-color 0.3s; /* Transition applied */
+  animation: translate 0.5s ease 0.5s both;
+  margin: 5px;
 }
 
 .skillCard:hover {
@@ -59,14 +49,14 @@
 
 .skillCard svg {
   font-size: 3rem;
-  color: currentColor; /* Use currentColor for the icon color */
-  fill: currentColor; /* Use currentColor for the fill property */
-  transition: color 0.3s, fill 0.3s; /* Smooth transition for icon color and fill */
+  color: currentColor;
+  fill: currentColor;
+  transition: color 0.3s, fill 0.3s;
 }
 
 .skillCard:hover svg {
   color: #007bff;
-  fill: #007bff; /* Change icon color and fill on hover */
+  fill: #007bff;
 }
 
 .skillCard h3 {
@@ -78,6 +68,25 @@
 /* Media Query for Responsive Design */
 @media (max-width: 768px) {
   .skillCards {
-    justify-content: center; /* Center columns on smaller screens */
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+  }
+  .skillCard h3 {
+    padding-top: 10px;
+  }
+}
+
+/* Additional Media Query for Smaller Mobile Screens */
+@media (max-width: 480px) {
+  .skillCards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .skillCard h3 {
+    padding-top: 10px;
   }
 }

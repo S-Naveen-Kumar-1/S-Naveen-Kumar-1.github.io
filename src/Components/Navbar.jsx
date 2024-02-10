@@ -35,15 +35,15 @@ export const Navbar = () => {
     >
       <div className="flex items-center justify-between max-[900px]:w-full mr-5 ">
         <Link
-          className="nav-link home"
+          className={styles.home}
           to="home"
           smooth={true}
           duration={1000}
           spy={true}
           hashSpy={true}
-          activeClass={"active"}
+          activeClass={styles.active}
         >
-          Home
+          SNK
         </Link>
         <span onClick={handleMobileMenu} className="hidden max-[900px]:inline">
           <HiMenuAlt1 className="text-2xl" />

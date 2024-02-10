@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styles from "../Styles/ProjectsSection.module.css";
 import { AiOutlineGithub } from "react-icons/ai";
-import { AiFillLinkedin } from "react-icons/ai";
+import { IoLinkSharp } from "react-icons/io5";
 
 export const ProjectCard = ({ name, img, git, link, stacks, about }) => {
   const [isFadingIn, setIsFadingIn] = useState(false);
@@ -44,7 +44,7 @@ export const ProjectCard = ({ name, img, git, link, stacks, about }) => {
 
         <a href={link} rel="noreferrer" target="_blank">
           <div className={`project-deployed-link ${styles.linkDiv}`}>
-            <AiFillLinkedin />
+            <IoLinkSharp />
             <p>Demo</p>
           </div>
         </a>
